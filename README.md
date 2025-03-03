@@ -4,17 +4,17 @@ Provide a visual perception data set collation platform for Anti-UAV
 
 | 数据集名称 <br> Dataset Name       | 年份 <br> Year | 模态 <br> Modality | 分辨率 <br> Resolution        | 数据量 <br> Size (k) | 无人机类别 <br> Classes | 6D姿态 <br> 6D Pose | 特点与应用场景 <br> Key Features & Usage Scenarios | 参考文献 <br> Reference |
 |------------------------------------|-------|----------|------------------------------|------------|------------|---------|--------------------------------------------------|------------|
-| **Anti-UAV**                       | 2021  | RGB+IR   | 640×512~1920×1080            | 585.9      | 4          | ✗       | 最大规模多模态数据集，支持全天候检测与跟踪 <br> Largest multi-modal dataset for all-weather UAV detection and tracking |     |
-| **Anti-UAV410**                    | 2023  | IR       | 640×512                      | 438.0      | -          | ✗       | 纯红外热成像数据，夜间反制任务优化 <br> Pure infrared thermal imaging for night counter-UAV tasks |        |
-| **MAV6D***                         | 2024  | RGB      | 640×512                      | 57.1       | 2          | ✓       | 含无人机6D位姿，精准干扰算法开发 <br> 6D pose (position + rotation) for trajectory prediction |       |
-| **ARD-MAV***                       | 2023  | RGB      | 1920×1080                    | 107.5      | 1          | ✗       | 极小目标检测（平均0.02%面积占比） <br> Extreme small object detection (avg. 0.02% area) |       |
+| **Anti-UAV**                       | 2021  | RGB+IR   | 640×512~1920×1080            | 585.9      | 4          | ✗       | 最大规模多模态数据集，支持全天候检测与跟踪 <br> Largest multi-modal dataset for all-weather UAV detection and tracking | https://github.com/ZhaoJ9014/Anti-UAV    |
+| **Anti-UAV410**                    | 2023  | IR       | 640×512                      | 438.0      | -          | ✗       | 纯红外热成像数据，夜间反制任务优化 <br> Pure infrared thermal imaging for night counter-UAV tasks | https://github.com/ZhaoJ9014/Anti-UAV       |
+| **MAV6D***                         | 2024  | RGB      | 640×512                      | 57.1       | 2          | ✓       | 含无人机6D位姿，精准干扰算法开发 <br> 6D pose (position + rotation) for trajectory prediction |  https://github.com/WindyLab/MAV6D     |
+| **ARD-MAV***                       | 2023  | RGB      | 1920×1080                    | 107.5      | 1          | ✗       | 极小目标检测（平均0.02%面积占比） <br> Extreme small object detection (avg. 0.02% area) |https://github.com/WindyLab/Global-Local-MAV-Detection       |
 | **Drone-vs-Bird**                  | 2021  | RGB      | 720×576~3840×2160            | 104.8      | 8          | ✗       | 区分无人机与鸟类，减少误报 <br> UAV vs bird discrimination (8 classes) |      |
-| **M3D***                           | 2024  | RGB      | 1920×1080                    | 84.0       | 22+10      | ✗       | 多领域无人机变体，增强泛化能力 <br> 22-class MAVs + 10-class variants |      |
-| **DUT Anti-UAV**                   | 2022  | RGB      | 160×240~3744×5616            | 10.1       | 1          | ✗       | 极端尺度变化（0.00019%~70%目标占比） <br> Extreme scale variation for edge computing |        |
-| **Real-World**                     | 2020  | RGB      | 640×480                      | 56.8       | 3          | ✗       | 真实场景静态图像，快速原型验证 <br> Real-world images for rapid prototyping |       |
-| **NPS-Drones**                     | 2016  | RGB      | 1920×1080, 1280×760          | 70.3       | 1          | ✗       | 多分辨率视频跟踪基准 <br> Multi-resolution video tracking benchmark |       |
+| **M3D***                           | 2024  | RGB      | 1920×1080                    | 84.0       | 22+10      | ✗       | 多领域无人机变体，增强泛化能力 <br> 22-class MAVs + 10-class variants |  https://github.com/BAAI-DCAI/M3D    |
+| **DUT Anti-UAV**                   | 2022  | RGB      | 160×240~3744×5616            | 10.1       | 1          | ✗       | 极端尺度变化（0.00019%~70%目标占比） <br> Extreme scale variation for edge computing |   https://github.com/wangdongdut/DUT-Anti-UAV     |
+| **Real-World**                     | 2020  | RGB      | 640×480                      | 56.8       | 3          | ✗       | 真实场景静态图像，快速原型验证 <br> Real-world images for rapid prototyping |   https://github.com/Maciullo/DroneDetectionDataset    |
+| **NPS-Drones**                     | 2016  | RGB      | 1920×1080, 1280×760          | 70.3       | 1          | ✗       | 多分辨率视频跟踪基准 <br> Multi-resolution video tracking benchmark |    https://github.com/mwaseema/Drone-Detection，https://engineering.purdue.edu/~bouman/UAV_Dataset/   |
 | **FL-Drones**                      | 2016  | RGB      | 640×480, 752×480             | 38.9       | 1          | ✗       | 早期检测基准（光照变化与遮挡） <br> Early benchmark with occlusion scenarios |       |
-| **MIDGARD**                        | 2020  | RGB      | 752×480                      | 8.8        | 1          | ✗       | 微型无人机视觉定位数据集 <br> Visual localization for micro-UAVs |       |
+| **MIDGARD**                        | 2020  | RGB      | 752×480                      | 8.8        | 1          | ✗       | 微型无人机视觉定位数据集 <br> Visual localization for micro-UAVs |  https://ieeexplore.ieee.org/document/9196947     |
 
 
 
